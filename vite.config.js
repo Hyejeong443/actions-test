@@ -7,7 +7,8 @@ export default defineConfig({
   server: {
     host: '127.0.0.1',  // IPv4 주소 사용
     port: 3000,          // 사용 가능한 포트로 변경
-  }
+  },
+  base: '/actions-test/',
 })
 
 
